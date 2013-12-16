@@ -25,5 +25,6 @@ Install:
 
     sudo apt-get install pyqt4-dev-tools libqt4-dev
     git clone https://github.com/agiliq/snipe.git
+    pyrcc4 snipe/res.qrc > snipe/res.py
     pip install -e .
     snipe
